@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="assets/pawprint 1.svg" />
+    <title>Browse4Pets - Find Your Perfect Pet</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,58 +21,67 @@
   <body>
     <header class="header" id="header">
       <!-- navigation -->
-      <nav class="navigation" id="navigation">
-        <div class="container">
-          <div class="nav-container">
-            <a href="" class="logo">
-              <img src="assets/" alt="" />
-              <h3 class="logo-text">Browse<span>4</span>Pets</h3>
+      <nav class="navigation bg-[#FFF9F4] py-3 md:py-6 border-b border-gray-200 md:border-none" id="navigation">
+        <div class="container ">
+          <div class="nav-container flex items-center justify-between">
+            <a href="" class="logo  flex items-center gap-2">
+              <img src="assets/logo.svg" alt="" class="w-12" />
+              <p class="logo-text text-[#111111] text-2xl font-normal hidden md:block">Browse<span class="text-[#FFDC26]">4</span>Pets</p>
             </a>
             <!-- Navigation -->
-            <div class="menu-container">
-              <ul class="nav-menu">
-                <li class="menu-items">
+            <div class="menu-container ">
+              <ul class="nav-menu hidden md:flex items-center gap-8 text-xl">
+                <li class="menu-items text-gray-900 hover:text-gray-600 transition duration-150 ease-in-out">
                   <a href="" class="menu-links">Find a pet</a>
                 </li>
+                <li class="menu-items text-gray-900 hover:text-gray-600 transition duration-150 ease-in-out">
+                    <a href="" class="menu-links">Breeds</a>
+                  </li>
+                  <li class="menu-items text-gray-900 hover:text-gray-600 transition duration-150 ease-in-out">
+                    <a href="" class="menu-links">Contact us</a>
+                  </li>
               </ul>
               <!-- Hamburger Menu -->
-              <button class="hamburger">
+              <button class="hamburger block md:hidden text-xl">
                 <i class="fa-solid fa-bars"></i>
               </button>
             </div>
             <!-- Login\Register Buttons -->
-            <div class="login-container">
-              <a href="" class="notification"
+            <div class="login-container hidden lg:flex items-center gap-4 ">
+              <a href="" class="notification text-xl font-normal text-[#111111]"
                 ><i class="fa-regular fa-bell"></i
               ></a>
-              <a href="" class="notification"
+              <a href="" class="notification text-xl font-normal text-[#111111]"
                 ><i class="fa-solid fa-magnifying-glass"></i
               ></a>
-              <button class="login-btn">login</button>
-              <button class="register-btn">register</button>
+              <button class="login-btn px-8 py-3 rounded-lg border border-[#FFDC26] bg-transparent hover:bg-[#FFDC26] transition duration-150 ease-in-out">Login</button>
+              <button class="register-btn inline-block px-8 py-3 rounded-lg bg-[#FFDC26] hover:bg-[#fdcb41] transition duration-150 ease-in-out">Register</button>
             </div>
           </div>
         </div>
       </nav>
       <!-- banner section -->
-      <section class="banner">
+      <section class="banner pt-8 md:pt-24">
         <div class="container">
           <!-- Banner Container -->
           <div class="banner-container">
             <!-- Banner Content -->
-            <div class="banner-content">
-              <h1 class="main-heading">
+            <div class="banner-content flex flex-col gap-3 max-w-lg md:max-w-2xl relative">
+              <h1 class="main-heading text-3xl md:text-6xl mb-4 ">
                 Pamper Your Pet, Because They Deserve the Bes
               </h1>
-              <p class="banner-text">
+              <p class="banner-text text-base md:text-xl text-gray-900 mb-6 ">
                 Discover a world of treats, toys, and essentials handpicked for
                 your furry friends. Shop now and make tails wag with joy!
               </p>
-              <button class="banner-btn">Find a pet</button>
+              <div>
+                <button class="banner-btn text-base md:text-xl bg-[#FFDC26] rounded-lg px-8 py-3 text-gray-900 hover:bg-[#fdcb41] transition duration-150 ease-in-out">Find a pet</button>
+              </div>
+             
             </div>
             <!-- Banner Image -->
-            <div class="banner-image">
-              <img src="" alt="" />
+            <div class="banner-image -mt-25 sm:-mt-35 md:-mt-52 lg:-mt-96">
+              <img src="assets/cat-big.png" alt="" />
             </div>
           </div>
         </div>
@@ -81,13 +91,77 @@
     <!-- main section start -->
     <main class="main">
       <!-- section  Categories-->
-      <section class="categories" id="categories">
+      <section class="categories py-14 md:py-32" id="categories">
         <div class="container">
-          <h2 class="heading">Browse By Categories</h2>
+          <h2 class="headingn text-2xl md:text-4xl mb-8 md:mb-10">Browse By Categories</h2>
           <!-- Categories Container -->
-          <div class="categories-container">
+          <div class="categories-container flex flex-wrap gap-2 md:gap-5">
             <!-- Category Box 1-->
-            <div class="category-box"></div>
+            <div class="category-box w-[170px] md:w-[192px] bg-[#F9DF8A] rounded-xl text-center flex flex-col items-center justify-center gap-5 md:gap-6 p-7 md:p-8">
+                <div class="img-box bg-white w-24 md:w-28 h-24 md:h-28 rounded-full flex justify-center items-center">
+                    <img src="assets/dog-cartoon.png" alt=" cartoon img">
+                </div>
+                <div class="category-content-box">
+                    <h4 class=" text-lg md:text-xl  mb-2 md:mb-3">Dog</h4>
+                    <p class="text-sm md:text-base">3 items</p>
+                </div>
+                
+            </div>
+            <!-- box 2 -->
+            <div class="category-box w-[170px] md:w-[192px] bg-[#F9DF8A] rounded-xl text-center flex flex-col items-center justify-center gap-5 md:gap-6 p-7 md:p-8">
+              <div class="img-box bg-white w-24 md:w-28 h-24 md:h-28 rounded-full flex justify-center items-center">
+                  <img src="assets/fish-cartoon.png" alt=" cartoon img">
+              </div>
+              <div class="category-content-box">
+                  <h4 class=" text-lg md:text-xl  mb-2 md:mb-3">Fish</h4>
+                  <p class="text-sm md:text-base">3 items</p>
+              </div>
+              
+          </div>
+           <!-- box 3 -->
+           <div class="category-box w-[170px] md:w-[192px] bg-[#F9DF8A] rounded-xl text-center flex flex-col items-center justify-center gap-5 md:gap-6 p-7 md:p-8">
+            <div class="img-box bg-white w-24 md:w-28 h-24 md:h-28 rounded-full flex justify-center items-center">
+                <img src="assets/cat-cartoon.png" alt=" cartoon img">
+            </div>
+            <div class="category-content-box">
+                <h4 class=" text-lg md:text-xl  mb-2 md:mb-3">Cat</h4>
+                <p class="text-sm md:text-base">3 items</p>
+            </div>
+            
+        </div>
+         <!-- box 4 -->
+         <div class="category-box w-[170px] md:w-[192px] bg-[#F9DF8A] rounded-xl text-center flex flex-col items-center justify-center gap-5 md:gap-6 p-7 md:p-8">
+          <div class="img-box bg-white w-24 md:w-28 h-24 md:h-28 rounded-full flex justify-center items-center">
+              <img src="assets/bird-cartoon.png" alt=" cartoon img">
+          </div>
+          <div class="category-content-box">
+              <h4 class=" text-lg md:text-xl  mb-2 md:mb-3">Birds</h4>
+              <p class="text-sm md:text-base">3 items</p>
+          </div>
+          
+      </div>
+       <!-- box 5 -->
+       <div class="category-box w-[170px] md:w-[192px] bg-[#F9DF8A] rounded-xl text-center flex flex-col items-center justify-center gap-5 md:gap-6 p-7 md:p-8">
+        <div class="img-box bg-white w-24 md:w-28 h-24 md:h-28 rounded-full flex justify-center items-center">
+            <img src="assets/mouse-cartoon.png" alt=" cartoon img">
+        </div>
+        <div class="category-content-box">
+            <h4 class=" text-lg md:text-xl  mb-2 md:mb-3">Small Pet</h4>
+            <p class="text-sm md:text-base">3 items</p>
+        </div>
+        
+    </div>
+     <!-- box 6 -->
+     <div class="category-box w-[170px] md:w-[192px] bg-[#F9DF8A] rounded-xl text-center flex flex-col items-center justify-center gap-5 md:gap-6 p-7 md:p-8">
+      <div class="img-box bg-white w-24 md:w-28 h-24 md:h-28 rounded-full flex justify-center items-center">
+          <img src="assets/rabbit-cartoon.png" alt=" cartoon img">
+      </div>
+      <div class="category-content-box">
+          <h4 class=" text-lg md:text-xl  mb-2 md:mb-3">Rabbit</h4>
+          <p class="text-sm md:text-base">3 items</p>
+      </div>
+      
+  </div>
           </div>
         </div>
       </section>
@@ -95,7 +169,7 @@
       <!-- section  Product-->
       <section class="product" id="product">
         <div class="container">
-          <h2 class="heading">Trending Pet Products</h2>
+          <h2 class="heading text-2xl md:text-4xl">Trending Pet Products</h2>
           <!-- Products Container -->
           <div class="product-container">
             <!-- product Box 1 -- Big box-->
@@ -113,7 +187,7 @@
       <!-- section  Price-->
       <section class="price" id="price">
         <div class="container">
-          <h2 class="heading">Everyday low Price</h2>
+          <h2 class="heading text-2xl md:text-4xl mb-8 md:mb-10">Everyday low Price</h2>
             <!-- Price Container -->
           <div class="price-container">
            <!-- grooming mitt box -->
@@ -134,7 +208,7 @@
 
       <section class="price" id="price">
         <div class="container">
-          <h2 class="heading">Client Testimonials</h2>
+          <h2 class="heading text-2xl md:text-4xl mb-8 md:mb-10">Client Testimonials</h2>
         </div>
       </section>
         <!-- Bonus Section complete----------------->
@@ -150,7 +224,7 @@
                 </div>
                 <!-- newsletter content -->
                 <div class="newsletter-content">
-                    <h2 class="heading">Get Pawsome News!</h2>
+                    <h2 class="heading text-2xl md:text-4xl mb-8 md:mb-10">Get Pawsome News!</h2>
                     <p class="newsletter-desc">Exclusive training tips, ticks, product deals and more.</p>
                     <form action="">
                         <input type="email" placeholder="Enter Email" />
