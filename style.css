@@ -26,6 +26,25 @@ h1,h2,h3,h4,h5,h6{
     padding-inline:20px;
 }
 
+
+  @keyframes scale{
+    0% {
+        transform:scale(1)
+        }
+     
+        50% {
+            transform:scale(1.15)
+        }
+        100% {
+            transform:scale(1)
+        }
+  }
+
+  .pet-anim{
+    transform:scale(1);
+    animation: scale 8s ease-in-out infinite;
+    
+  }
 @media screen and (min-width: 768px){
     .container{
         padding-inline:20px;
