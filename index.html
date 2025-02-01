@@ -21,25 +21,38 @@
   <body>
     <header class="header" id="header">
       <!-- navigation -->
-      <nav class="navigation bg-[#FFF9F4] py-3 md:py-6 border-b border-gray-200 md:border-none" id="navigation">
-        <div class="container ">
+      <nav
+        class="navigation bg-[#FFF9F4] py-3 md:py-6 border-b border-gray-200 md:border-none"
+        id="navigation"
+      >
+        <div class="container">
           <div class="nav-container flex items-center justify-between">
-            <a href="" class="logo  flex items-center gap-2">
+            <a href="" class="logo flex items-center gap-2">
               <img src="assets/logo.svg" alt="" class="w-12" />
-              <p class="logo-text text-[#111111] text-2xl font-normal hidden md:block">Browse<span class="text-[#FFDC26]">4</span>Pets</p>
+              <p
+                class="logo-text text-[#111111] text-2xl font-normal hidden md:block"
+              >
+                Browse<span class="text-[#FFDC26]">4</span>Pets
+              </p>
             </a>
             <!-- Navigation -->
-            <div class="menu-container ">
+            <div class="menu-container">
               <ul class="nav-menu hidden md:flex items-center gap-8 text-xl">
-                <li class="menu-items text-gray-900 hover:text-gray-600 transition duration-150 ease-in-out">
+                <li
+                  class="menu-items text-gray-900 hover:text-gray-600 transition duration-150 ease-in-out"
+                >
                   <a href="" class="menu-links">Find a pet</a>
                 </li>
-                <li class="menu-items text-gray-900 hover:text-gray-600 transition duration-150 ease-in-out">
-                    <a href="" class="menu-links">Breeds</a>
-                  </li>
-                  <li class="menu-items text-gray-900 hover:text-gray-600 transition duration-150 ease-in-out">
-                    <a href="" class="menu-links">Contact us</a>
-                  </li>
+                <li
+                  class="menu-items text-gray-900 hover:text-gray-600 transition duration-150 ease-in-out"
+                >
+                  <a href="" class="menu-links">Breeds</a>
+                </li>
+                <li
+                  class="menu-items text-gray-900 hover:text-gray-600 transition duration-150 ease-in-out"
+                >
+                  <a href="" class="menu-links">Contact us</a>
+                </li>
               </ul>
               <!-- Hamburger Menu -->
               <button class="hamburger block md:hidden text-xl">
@@ -47,15 +60,23 @@
               </button>
             </div>
             <!-- Login\Register Buttons -->
-            <div class="login-container hidden lg:flex items-center gap-4 ">
+            <div class="login-container hidden lg:flex items-center gap-4">
               <a href="" class="notification text-xl font-normal text-[#111111]"
                 ><i class="fa-regular fa-bell"></i
               ></a>
               <a href="" class="notification text-xl font-normal text-[#111111]"
                 ><i class="fa-solid fa-magnifying-glass"></i
               ></a>
-              <button class="login-btn px-8 py-3 rounded-lg border border-[#FFDC26] bg-transparent hover:bg-[#FFDC26] transition duration-150 ease-in-out">Login</button>
-              <button class="register-btn inline-block px-8 py-3 rounded-lg bg-[#FFDC26] hover:bg-[#fdcb41] transition duration-150 ease-in-out">Register</button>
+              <button
+                class="login-btn px-8 py-3 rounded-lg border border-[#FFDC26] bg-transparent hover:bg-[#FFDC26] transition duration-150 ease-in-out"
+              >
+                Login
+              </button>
+              <button
+                class="register-btn inline-block px-8 py-3 rounded-lg bg-[#FFDC26] hover:bg-[#fdcb41] transition duration-150 ease-in-out"
+              >
+                Register
+              </button>
             </div>
           </div>
         </div>
@@ -66,18 +87,23 @@
           <!-- Banner Container -->
           <div class="banner-container">
             <!-- Banner Content -->
-            <div class="banner-content flex flex-col gap-3 max-w-lg md:max-w-2xl relative">
-              <h1 class="main-heading text-3xl md:text-6xl mb-4 ">
+            <div
+              class="banner-content flex flex-col gap-3 max-w-lg md:max-w-2xl relative"
+            >
+              <h1 class="main-heading text-3xl md:text-6xl mb-4">
                 Pamper Your Pet, Because They Deserve the Bes
               </h1>
-              <p class="banner-text text-base md:text-xl text-gray-900 mb-6 ">
+              <p class="banner-text text-base md:text-xl text-gray-900 mb-6">
                 Discover a world of treats, toys, and essentials handpicked for
                 your furry friends. Shop now and make tails wag with joy!
               </p>
               <div>
-                <button class="banner-btn text-base md:text-xl bg-[#FFDC26] rounded-lg px-8 py-3 text-gray-900 hover:bg-[#fdcb41] transition duration-150 ease-in-out">Find a pet</button>
+                <button
+                  class="banner-btn text-base md:text-xl bg-[#FFDC26] rounded-lg px-8 py-3 text-gray-900 hover:bg-[#fdcb41] transition duration-150 ease-in-out"
+                >
+                  Find a pet
+                </button>
               </div>
-             
             </div>
             <!-- Banner Image -->
             <div class="banner-image -mt-25 sm:-mt-35 md:-mt-52 lg:-mt-96">
@@ -93,112 +119,373 @@
       <!-- section  Categories-->
       <section class="categories py-14 md:py-32" id="categories">
         <div class="container">
-          <h2 class="headingn text-2xl md:text-4xl mb-8 md:mb-10">Browse By Categories</h2>
+          <h2 class="heading text-2xl md:text-4xl mb-8 md:mb-10">
+            Browse By Categories
+          </h2>
           <!-- Categories Container -->
           <div class="categories-container flex flex-wrap gap-2 md:gap-5">
             <!-- Category Box 1-->
-            <div class="category-box w-[170px] md:w-[192px] bg-[#F9DF8A] rounded-xl text-center flex flex-col items-center justify-center gap-5 md:gap-6 p-7 md:p-8">
-                <div class="img-box bg-white w-24 md:w-28 h-24 md:h-28 rounded-full flex justify-center items-center">
-                    <img src="assets/dog-cartoon.png" alt=" cartoon img">
-                </div>
-                <div class="category-content-box">
-                    <h4 class=" text-lg md:text-xl  mb-2 md:mb-3">Dog</h4>
-                    <p class="text-sm md:text-base">3 items</p>
-                </div>
-                
-            </div>
-            <!-- box 2 -->
-            <div class="category-box w-[170px] md:w-[192px] bg-[#F9DF8A] rounded-xl text-center flex flex-col items-center justify-center gap-5 md:gap-6 p-7 md:p-8">
-              <div class="img-box bg-white w-24 md:w-28 h-24 md:h-28 rounded-full flex justify-center items-center">
-                  <img src="assets/fish-cartoon.png" alt=" cartoon img">
+            <div
+              class="category-box w-[170px] md:w-[192px] bg-[#F9DF8A] rounded-xl text-center flex flex-col items-center justify-center gap-5 md:gap-6 p-7 md:p-8"
+            >
+              <div
+                class="img-box bg-white w-24 md:w-28 h-24 md:h-28 rounded-full flex justify-center items-center"
+              >
+                <img src="assets/dog-cartoon.png" alt=" cartoon img" />
               </div>
               <div class="category-content-box">
-                  <h4 class=" text-lg md:text-xl  mb-2 md:mb-3">Fish</h4>
-                  <p class="text-sm md:text-base">3 items</p>
-              </div>
-              
-          </div>
-           <!-- box 3 -->
-           <div class="category-box w-[170px] md:w-[192px] bg-[#F9DF8A] rounded-xl text-center flex flex-col items-center justify-center gap-5 md:gap-6 p-7 md:p-8">
-            <div class="img-box bg-white w-24 md:w-28 h-24 md:h-28 rounded-full flex justify-center items-center">
-                <img src="assets/cat-cartoon.png" alt=" cartoon img">
-            </div>
-            <div class="category-content-box">
-                <h4 class=" text-lg md:text-xl  mb-2 md:mb-3">Cat</h4>
+                <h4 class="text-lg md:text-xl mb-2 md:mb-3">Dog</h4>
                 <p class="text-sm md:text-base">3 items</p>
+              </div>
             </div>
-            
-        </div>
-         <!-- box 4 -->
-         <div class="category-box w-[170px] md:w-[192px] bg-[#F9DF8A] rounded-xl text-center flex flex-col items-center justify-center gap-5 md:gap-6 p-7 md:p-8">
-          <div class="img-box bg-white w-24 md:w-28 h-24 md:h-28 rounded-full flex justify-center items-center">
-              <img src="assets/bird-cartoon.png" alt=" cartoon img">
-          </div>
-          <div class="category-content-box">
-              <h4 class=" text-lg md:text-xl  mb-2 md:mb-3">Birds</h4>
-              <p class="text-sm md:text-base">3 items</p>
-          </div>
-          
-      </div>
-       <!-- box 5 -->
-       <div class="category-box w-[170px] md:w-[192px] bg-[#F9DF8A] rounded-xl text-center flex flex-col items-center justify-center gap-5 md:gap-6 p-7 md:p-8">
-        <div class="img-box bg-white w-24 md:w-28 h-24 md:h-28 rounded-full flex justify-center items-center">
-            <img src="assets/mouse-cartoon.png" alt=" cartoon img">
-        </div>
-        <div class="category-content-box">
-            <h4 class=" text-lg md:text-xl  mb-2 md:mb-3">Small Pet</h4>
-            <p class="text-sm md:text-base">3 items</p>
-        </div>
-        
-    </div>
-     <!-- box 6 -->
-     <div class="category-box w-[170px] md:w-[192px] bg-[#F9DF8A] rounded-xl text-center flex flex-col items-center justify-center gap-5 md:gap-6 p-7 md:p-8">
-      <div class="img-box bg-white w-24 md:w-28 h-24 md:h-28 rounded-full flex justify-center items-center">
-          <img src="assets/rabbit-cartoon.png" alt=" cartoon img">
-      </div>
-      <div class="category-content-box">
-          <h4 class=" text-lg md:text-xl  mb-2 md:mb-3">Rabbit</h4>
-          <p class="text-sm md:text-base">3 items</p>
-      </div>
-      
-  </div>
+            <!-- box 2 -->
+            <div
+              class="category-box w-[170px] md:w-[192px] bg-[#F9DF8A] rounded-xl text-center flex flex-col items-center justify-center gap-5 md:gap-6 p-7 md:p-8"
+            >
+              <div
+                class="img-box bg-white w-24 md:w-28 h-24 md:h-28 rounded-full flex justify-center items-center"
+              >
+                <img src="assets/fish-cartoon.png" alt=" cartoon img" />
+              </div>
+              <div class="category-content-box">
+                <h4 class="text-lg md:text-xl mb-2 md:mb-3">Fish</h4>
+                <p class="text-sm md:text-base">3 items</p>
+              </div>
+            </div>
+            <!-- box 3 -->
+            <div
+              class="category-box w-[170px] md:w-[192px] bg-[#F9DF8A] rounded-xl text-center flex flex-col items-center justify-center gap-5 md:gap-6 p-7 md:p-8"
+            >
+              <div
+                class="img-box bg-white w-24 md:w-28 h-24 md:h-28 rounded-full flex justify-center items-center"
+              >
+                <img src="assets/cat-cartoon.png" alt=" cartoon img" />
+              </div>
+              <div class="category-content-box">
+                <h4 class="text-lg md:text-xl mb-2 md:mb-3">Cat</h4>
+                <p class="text-sm md:text-base">3 items</p>
+              </div>
+            </div>
+            <!-- box 4 -->
+            <div
+              class="category-box w-[170px] md:w-[192px] bg-[#F9DF8A] rounded-xl text-center flex flex-col items-center justify-center gap-5 md:gap-6 p-7 md:p-8"
+            >
+              <div
+                class="img-box bg-white w-24 md:w-28 h-24 md:h-28 rounded-full flex justify-center items-center"
+              >
+                <img src="assets/bird-cartoon.png" alt=" cartoon img" />
+              </div>
+              <div class="category-content-box">
+                <h4 class="text-lg md:text-xl mb-2 md:mb-3">Birds</h4>
+                <p class="text-sm md:text-base">3 items</p>
+              </div>
+            </div>
+            <!-- box 5 -->
+            <div
+              class="category-box w-[170px] md:w-[192px] bg-[#F9DF8A] rounded-xl text-center flex flex-col items-center justify-center gap-5 md:gap-6 p-7 md:p-8"
+            >
+              <div
+                class="img-box bg-white w-24 md:w-28 h-24 md:h-28 rounded-full flex justify-center items-center"
+              >
+                <img src="assets/mouse-cartoon.png" alt=" cartoon img" />
+              </div>
+              <div class="category-content-box">
+                <h4 class="text-lg md:text-xl mb-2 md:mb-3">Small Pet</h4>
+                <p class="text-sm md:text-base">3 items</p>
+              </div>
+            </div>
+            <!-- box 6 -->
+            <div
+              class="category-box w-[170px] md:w-[192px] bg-[#F9DF8A] rounded-xl text-center flex flex-col items-center justify-center gap-5 md:gap-6 p-7 md:p-8"
+            >
+              <div
+                class="img-box bg-white w-24 md:w-28 h-24 md:h-28 rounded-full flex justify-center items-center"
+              >
+                <img src="assets/rabbit-cartoon.png" alt=" cartoon img" />
+              </div>
+              <div class="category-content-box">
+                <h4 class="text-lg md:text-xl mb-2 md:mb-3">Rabbit</h4>
+                <p class="text-sm md:text-base">3 items</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
       <!-- section  Product-->
-      <section class="product" id="product">
+      <section class="product py-14 md:py-32 bg-[#FFF9F4]" id="product">
         <div class="container">
-          <h2 class="heading text-2xl md:text-4xl">Trending Pet Products</h2>
+          <h2 class="heading text-2xl md:text-4xl mb-8 md:mb-10">
+            Trending Pet Products
+          </h2>
           <!-- Products Container -->
-          <div class="product-container">
+          <div class="product-container flex flex-col lg:flex-row gap-6">
             <!-- product Box 1 -- Big box-->
-            <div class="product-box large-box"></div>
+            <div
+              class="product-box large-box w-full lg:w-1/4 bg-[#F9DF8A] rounded-lg px-6 md:px-8 border border-green-300 relative"
+            >
+              <h3 class="text-2xl md:text-3xl mt-10 md:mt-12">
+                T- Shirt For Dogs
+              </h3>
+              <p class="text-sm md:text-base my-4 md:my-6">
+                Discover a world of treats, toys, and essentials handpicked for
+              </p>
+              <button
+                class="shop-btn inline-block px-8 py-3 rounded-lg bg-white hover:bg-[#fdcb41] transition duration-150 ease-in-out"
+              >
+                Shop Now
+              </button>
+              <img
+                src="assets/cute-pet-small.png"
+                alt="pet img"
+                class="relative -right-12 -mt-32 md:-mt-24 ml-auto"
+              />
+            </div>
             <!-- Small product box container -->
-            <div class="small-product-box-container">
+            <div
+              class="small-product-box-container w-full lg:w-3/4 grid grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-6"
+            >
               <!-- small product box 1 -->
-              <div class="product-box small-box"></div>
+              <div
+                class="product-box small-box flex items-center gap-4 bg-white border border-gray-100 rounded-lg p-2 md:p-4"
+              >
+                <div
+                  class="product-img-box bg-[#FFF9F4] rounded-lg flex items-center justify-center size-14 md:size-20 p-3"
+                >
+                  <img
+                    src="assets/dog-cartoon.png"
+                    alt="pet img"
+                    class="max-w-full"
+                  />
+                </div>
+                <div class="product-content-box">
+                  <span class="text-[#FFC107]"
+                    ><i class="fa-solid fa-star"></i
+                  ></span>
+                  <span class="text-sm md:text-base">4.5</span>
+                  <p class="text-sm md:text-lg my-1 md:my-2 font-bold">
+                    Pet Bed
+                  </p>
+                  <p class="text-sm md:text-base font-medium">$39.99</p>
+                </div>
+              </div>
+
+              <!-- small product box 2 -->
+              <div
+                class="product-box small-box flex items-center gap-4 bg-white border border-gray-100 rounded-lg p-2 md:p-4"
+              >
+                <div
+                  class="product-img-box bg-[#FFF9F4] rounded-lg flex items-center justify-center size-14 md:size-20 p-3"
+                >
+                  <img
+                    src="assets/fish-cartoon.png"
+                    alt="pet img"
+                    class="max-w-full"
+                  />
+                </div>
+                <div class="product-content-box">
+                  <span class="text-[#FFC107]"
+                    ><i class="fa-solid fa-star"></i
+                  ></span>
+                  <span class="text-sm md:text-base">4.5</span>
+                  <p class="text-sm md:text-lg my-1 md:my-2 font-bold">
+                    Pet Bed
+                  </p>
+                  <p class="text-sm md:text-base font-medium">$39.99</p>
+                </div>
+              </div>
+
+              <!-- small product box 3 -->
+              <div
+                class="product-box small-box flex items-center gap-4 bg-white border border-gray-100 rounded-lg p-2 md:p-4"
+              >
+                <div
+                  class="product-img-box bg-[#FFF9F4] rounded-lg flex items-center justify-center size-14 md:size-20 p-3"
+                >
+                  <img
+                    src="assets/bird-cartoon.png"
+                    alt="pet img"
+                    class="max-w-full"
+                  />
+                </div>
+                <div class="product-content-box">
+                  <span class="text-[#FFC107]"
+                    ><i class="fa-solid fa-star"></i
+                  ></span>
+                  <span class="text-sm md:text-base">4.5</span>
+                  <p class="text-sm md:text-lg my-1 md:my-2 font-bold">
+                    Pet Bed
+                  </p>
+                  <p class="text-sm md:text-base font-medium">$39.99</p>
+                </div>
+              </div>
+
+              <!-- small product box 4 -->
+              <div
+                class="product-box small-box flex items-center gap-4 bg-white border border-gray-100 rounded-lg p-2 md:p-4"
+              >
+                <div
+                  class="product-img-box bg-[#FFF9F4] rounded-lg flex items-center justify-center size-14 md:size-20 p-3"
+                >
+                  <img
+                    src="assets/rabbit-cartoon.png"
+                    alt="pet img"
+                    class="max-w-full"
+                  />
+                </div>
+                <div class="product-content-box">
+                  <span class="text-[#FFC107]"
+                    ><i class="fa-solid fa-star"></i
+                  ></span>
+                  <span class="text-sm md:text-base">4.5</span>
+                  <p class="text-sm md:text-lg my-1 md:my-2 font-bold">
+                    Pet Bed
+                  </p>
+                  <p class="text-sm md:text-base font-medium">$39.99</p>
+                </div>
+              </div>
+
+              <!-- small product box 5 -->
+              <div
+                class="product-box small-box flex items-center gap-4 bg-white border border-gray-100 rounded-lg p-2 md:p-4"
+              >
+                <div
+                  class="product-img-box bg-[#FFF9F4] rounded-lg flex items-center justify-center size-14 md:size-20 p-3"
+                >
+                  <img
+                    src="assets/bird-cartoon.png"
+                    alt="pet img"
+                    class="max-w-full"
+                  />
+                </div>
+                <div class="product-content-box">
+                  <span class="text-[#FFC107]"
+                    ><i class="fa-solid fa-star"></i
+                  ></span>
+                  <span class="text-sm md:text-base">4.5</span>
+                  <p class="text-sm md:text-lg my-1 md:my-2 font-bold">
+                    Pet Bed
+                  </p>
+                  <p class="text-sm md:text-base font-medium">$39.99</p>
+                </div>
+              </div>
+
+              <!-- small product box 6 -->
+              <div
+                class="product-box small-box flex items-center gap-4 bg-white border border-gray-100 rounded-lg p-2 md:p-4"
+              >
+                <div
+                  class="product-img-box bg-[#FFF9F4] rounded-lg flex items-center justify-center size-14 md:size-20 p-3"
+                >
+                  <img
+                    src="assets/pet-couch.png"
+                    alt="pet img"
+                    class="max-w-full"
+                  />
+                </div>
+                <div class="product-content-box">
+                  <span class="text-[#FFC107]"
+                    ><i class="fa-solid fa-star"></i
+                  ></span>
+                  <span class="text-sm md:text-base">4.5</span>
+                  <p class="text-sm md:text-lg my-1 md:my-2 font-bold">
+                    Pet Bed
+                  </p>
+                  <p class="text-sm md:text-base font-medium">$39.99</p>
+                </div>
+              </div>
+
+              <!-- small product box 7 -->
+              <div
+                class="product-box small-box flex items-center gap-4 bg-white border border-gray-100 rounded-lg p-2 md:p-4"
+              >
+                <div
+                  class="product-img-box bg-[#FFF9F4] rounded-lg flex items-center justify-center size-14 md:size-20 p-3"
+                >
+                  <img
+                    src="assets/rabbit-cartoon.png"
+                    alt="pet img"
+                    class="max-w-full"
+                  />
+                </div>
+                <div class="product-content-box">
+                  <span class="text-[#FFC107]"
+                    ><i class="fa-solid fa-star"></i
+                  ></span>
+                  <span class="text-sm md:text-base">4.5</span>
+                  <p class="text-sm md:text-lg my-1 md:my-2 font-bold">
+                    Pet Bed
+                  </p>
+                  <p class="text-sm md:text-base font-medium">$39.99</p>
+                </div>
+              </div>
+
+              <!-- small product box 8 -->
+              <div
+                class="product-box small-box flex items-center gap-4 bg-white border border-gray-100 rounded-lg p-2 md:p-4"
+              >
+                <div
+                  class="product-img-box bg-[#FFF9F4] rounded-lg flex items-center justify-center size-14 md:size-20 p-3"
+                >
+                  <img
+                    src="assets/pet-couch.png"
+                    alt="pet img"
+                    class="max-w-full"
+                  />
+                </div>
+                <div class="product-content-box">
+                  <span class="text-[#FFC107]"
+                    ><i class="fa-solid fa-star"></i
+                  ></span>
+                  <span class="text-sm md:text-base">4.5</span>
+                  <p class="text-sm md:text-lg my-1 md:my-2 font-bold">
+                    Pet Bed
+                  </p>
+                  <p class="text-sm md:text-base font-medium">$39.99</p>
+                </div>
+              </div>
+
+              <!-- small product box 9 -->
+              <div
+                class="product-box small-box hidden md:flex items-center gap-4 bg-white border border-gray-100 rounded-lg p-2 md:p-4"
+              >
+                <div
+                  class="product-img-box bg-[#FFF9F4] rounded-lg flex items-center justify-center size-14 md:size-20 p-3"
+                >
+                  <img
+                    src="assets/rabbit-cartoon.png"
+                    alt="pet img"
+                    class="max-w-full"
+                  />
+                </div>
+                <div class="product-content-box">
+                  <span class="text-[#FFC107]"
+                    ><i class="fa-solid fa-star"></i
+                  ></span>
+                  <span class="text-sm md:text-base">4.5</span>
+                  <p class="text-sm md:text-lg my-1 md:my-2 font-bold">
+                    Pet Bed
+                  </p>
+                  <p class="text-sm md:text-base font-medium">$39.99</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      
       <!-- section  Price-->
       <section class="price" id="price">
         <div class="container">
-          <h2 class="heading text-2xl md:text-4xl mb-8 md:mb-10">Everyday low Price</h2>
-            <!-- Price Container -->
+          <h2 class="heading text-2xl md:text-4xl mb-8 md:mb-10">
+            Everyday low Price
+          </h2>
+          <!-- Price Container -->
           <div class="price-container">
-           <!-- grooming mitt box -->
-            <div class="price-box grooming-mitt">
-
-            </div>
+            <!-- grooming mitt box -->
+            <div class="price-box grooming-mitt"></div>
             <!-- T-shirt for dog box -->
-             <div class="price-box t-shirt-for-dog">
-
-             </div>
-        
+            <div class="price-box t-shirt-for-dog"></div>
           </div>
         </div>
       </section>
@@ -208,31 +495,35 @@
 
       <section class="price" id="price">
         <div class="container">
-          <h2 class="heading text-2xl md:text-4xl mb-8 md:mb-10">Client Testimonials</h2>
+          <h2 class="heading text-2xl md:text-4xl mb-8 md:mb-10">
+            Client Testimonials
+          </h2>
         </div>
       </section>
-        <!-- Bonus Section complete----------------->
-      
+      <!-- Bonus Section complete----------------->
+
       <!-- section  newsletter-->
       <section class="newsletter" id="newsletter">
         <div class="container">
-
-            <div class="newsletter-container">
-                <!-- newsletter image -->
-                <div class="newsletter-image">
-                    <img src="" alt="">
-                </div>
-                <!-- newsletter content -->
-                <div class="newsletter-content">
-                    <h2 class="heading text-2xl md:text-4xl mb-8 md:mb-10">Get Pawsome News!</h2>
-                    <p class="newsletter-desc">Exclusive training tips, ticks, product deals and more.</p>
-                    <form action="">
-                        <input type="email" placeholder="Enter Email" />
-                        <button type="submit">Subscribe</button>
-                     </form>
-                </div>
-
+          <div class="newsletter-container">
+            <!-- newsletter image -->
+            <div class="newsletter-image">
+              <img src="" alt="" />
             </div>
+            <!-- newsletter content -->
+            <div class="newsletter-content">
+              <h2 class="heading text-2xl md:text-4xl mb-8 md:mb-10">
+                Get Pawsome News!
+              </h2>
+              <p class="newsletter-desc">
+                Exclusive training tips, ticks, product deals and more.
+              </p>
+              <form action="">
+                <input type="email" placeholder="Enter Email" />
+                <button type="submit">Subscribe</button>
+              </form>
+            </div>
+          </div>
         </div>
       </section>
     </main>
