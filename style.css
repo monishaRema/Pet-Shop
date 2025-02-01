@@ -1,53 +1,52 @@
-
-*,
-*::after,
-*::before{
-    box-sizing: border-box; 
+button,
+a {
+  text-decoration: none;
+  cursor: pointer;
 }
-button, a{
-    text-decoration: none;
-    cursor: pointer;
-}
-input, select, textarea{
-    outline: none;
+input,
+select,
+textarea {
+  outline: none;
 }
 
-body{
-    font-family: "Sora", serif;
+body {
+  font-family: "Sora", serif;
 }
 
-h1,h2,h3,h4,h5,h6{
-    font-family: "ADLaM Display", serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "ADLaM Display", serif;
 }
 
-.container{
-    max-width: 1360px;
-    margin-inline:auto;
-    padding-inline:20px;
+.container {
+  max-width: 1360px;
+  margin-inline: auto;
+  padding-inline: 20px;
 }
 
-
-  @keyframes scale{
-    0% {
-        transform:scale(0.95)
-        }
-     
-        50% {
-            transform:scale(1)
-        }
-        100% {
-            transform:scale(0.95)
-        }
+@keyframes scale {
+  0% {
+    transform: scale(0.95);
   }
 
-  .pet-anim{
-    transform:scale(0.95);
-    animation: scale 8s ease-in-out infinite;
-    
+  50% {
+    transform: scale(1);
   }
-@media screen and (min-width: 768px){
-    .container{
-        padding-inline:20px;
-    }
-    
+  100% {
+    transform: scale(0.95);
+  }
+}
+
+.pet-anim {
+  transform: scale(0.95);
+  animation: scale 8s ease-in-out infinite;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    padding-inline: 20px;
+  }
 }
