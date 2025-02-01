@@ -214,7 +214,7 @@
 
       <!-- section  Product-->
       <section class="product py-14 md:py-32 bg-[#FFF9F4]" id="product">
-        <div class="container">
+        <div class="container overflow-hidden">
           <h2 class="heading text-2xl md:text-4xl mb-8 md:mb-10">
             Trending Pet Products
           </h2>
@@ -475,17 +475,60 @@
       </section>
 
       <!-- section  Price-->
-      <section class="price" id="price">
+      <section class="price py-14 md:py-32" id="price">
         <div class="container">
           <h2 class="heading text-2xl md:text-4xl mb-8 md:mb-10">
             Everyday low Price
           </h2>
           <!-- Price Container -->
-          <div class="price-container">
+          <div class="price-container flex flex-col lg:flex-row gap-6">
             <!-- grooming mitt box -->
-            <div class="price-box grooming-mitt"></div>
+            <div
+              class="price-box grooming-mitt w-full lg:w-7/12 rounded-xl flex flex-col md:flex-row md:items-center justify-between bg-linear-145 from-[#F8CCFB] to-[#ACD2FD]"
+            >
+              <div
+                class="price-content-box pl-9 pt-9 md:pt-0 md:pl-20 w-full lg:w-7/12"
+              >
+                <p class="text-base md:text-xl hidden md:block mb-4">
+                  Under Price
+                </p>
+                <h3 class="text-xl md:text-3xl mb-1 md:mb-2">
+                  Pet Grooming Mitt
+                </h3>
+                <span class="text-6 text-white mb-4 hidden md:block"
+                  >(Easy Hair Removal)</span
+                >
+                <h4 class="text-4xl text-white md:text-gray-900 md:text-6xl">
+                  $7.99
+                </h4>
+              </div>
+              <div class="price-img-box w-full lg:w-5/12">
+                <img
+                  src="assets/cute-dog-mid.png"
+                  alt=""
+                  class="w-full max-w-[214px] md:max-w-[382px] w ml-auto -mt-12 md:mt-0"
+                />
+              </div>
+            </div>
+
             <!-- T-shirt for dog box -->
-            <div class="price-box t-shirt-for-dog"></div>
+            <div
+              class="price-box w-full lg:w-5/12 rounded-xl bg-linear-145 from-[#FFF9F4] to-[#F9DF8A]"
+            >
+              <div class="content-box pl-9 pt-9 md:pt-14 md:pl-12">
+                <h3 class="text-xl md:text-3xl mb-1">
+                  T- Shirt For Dogs
+                </h3>
+                <h4 class="text-4xl text-[#FFDC26] md:text-6xl">$7.99</h4>
+              </div>
+              
+
+              <img
+                src="assets/cute-pet-mid.png"
+                alt="pet img"
+                class="relative -mt-12 md:-mt-12 ml-auto w-full max-w-[217px] md:max-w-[312px]"
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -493,7 +536,7 @@
       <!-- Bonus Section start-->
       <!-- section  customer testimonials-->
 
-      <section class="price" id="price">
+      <section class="" id="">
         <div class="container">
           <h2 class="heading text-2xl md:text-4xl mb-8 md:mb-10">
             Client Testimonials
@@ -505,22 +548,26 @@
       <!-- section  newsletter-->
       <section class="newsletter" id="newsletter">
         <div class="container">
-          <div class="newsletter-container">
+          <div class="newsletter-container p-8 md:p-9 md:px-20 bg-[#FFF9F4] rounded-lg flex flex-col md:flex-row items-center gap-8 md:gap-28">
             <!-- newsletter image -->
             <div class="newsletter-image">
-              <img src="" alt="" />
+              <img src="assets/cute-pet-mid.png" alt="" class="w-full max-w-[200px] md:max-w-[330px]"/>
             </div>
             <!-- newsletter content -->
-            <div class="newsletter-content">
-              <h2 class="heading text-2xl md:text-4xl mb-8 md:mb-10">
+            <div class="newsletter-content text-center md:text-start">
+              <h2 class="heading text-2xl md:text-4xl mb-3 md:mb-5">
                 Get Pawsome News!
               </h2>
-              <p class="newsletter-desc">
+              <p class="newsletter-desc text-base md:text-xl">
                 Exclusive training tips, ticks, product deals and more.
               </p>
               <form action="">
-                <input type="email" placeholder="Enter Email" />
-                <button type="submit">Subscribe</button>
+                <input type="email" placeholder="Enter Email" class="block bg-white text-gray-400 my-5 md:my-9 p-5 w-3/4 rounded-lg mx-auto md:mx-0" />
+                <button
+                class="subscribe-btn inline-block px-8 py-3 rounded-lg bg-[#FFDC26] hover:bg-[#fdcb41] transition duration-150 ease-in-out"
+              >
+                Subscribe
+              </button>
               </form>
             </div>
           </div>
